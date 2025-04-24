@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "cWVWrUqBemaET_lAN",
+      });
+   })();
+</script>
+
+    <title>Raunak sonkar</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="top">
+      <div class="top-left">
+        <h1>Raunak sonkar</h1>
+        <p>Web Developer</p>
+      </div>
+      <div class="top-right">
+        <nav>
+          <ol>
+            <li><a href="#aboutme">Home</a></li>
+            <li><a href="#Service">Service</a></li>
+            <li><a href="#Project">My project</a></li>
+            <li><a href="#contact">Contact me</a></li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <div class="main">
+      <h1>About me</h1>
+      <section class="aboutme" id="aboutme">
+        <div class="myimage">
+          <img src="img/image.png" alt="web-dev" />
+        </div>
+        <div class="about-me">
+            <!-- Element to contain animated typing -->
+  <span id="element"></span>
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Hi I am Raunak.', 'Web Developer.','Linux biginner.','Raunak sonkar.'],
+      typeSpeed: 70,
+    });
+  </script>
+</body>
+          <p>
+            I am a web developer and a computer science student.i have a passion for coding and
+            loves to create beautiful and functional websites.
+             I am  proficient
+            in HTML, CSS, JavaScript, and React. In his free time, he enjoys
+            reading books and playing video games.
+          </p>
+          <p>
+            I am also a member of the university's coding club and participates
+            in various hackathons. He is always eager to learn new technologies
+            and improve his skills. He believes that coding is not just a job,
+            but a way of life.
+          </p>
+          <p>
+            I am  currently looking for internships and job opportunities in web
+            development. If you are interested in hiring him, please feel free
+            to contact me.
+          </p>
+        </div>
+      </section>
+    </div>
+    <div class="Service" id="Service">
+      <h1>My Services</h1>
+      <section class="services">
+        <div class="service">
+          <img src="img/html.png" alt="">
+          <h2>Web Development</h2>
+          <p>
+            I create responsive and user-friendly websites using HTML, CSS,
+            JavaScript, and React.
+          </p>
+        </div>
+        <div class="service">
+          <img src="img/uiux.png" alt="">
+          <h2>UI/UX Design</h2>
+          <p>
+            I design intuitive and visually appealing user interfaces for web
+            applications.
+          </p>
+        </div>
+        <div class="service">
+          <img src="/img/copywriter_18274341.png" alt="">
+          <h2>Content Writing</h2>
+          <p>
+            I write engaging and informative content for websites and blogs.
+          </p>
+        </div>
+        <div class="service">
+          <img src="img/graphic.png" alt="">
+          <h2>Graphic designer</h2>
+          <p>
+            I create stunning graphics and illustrations for websites and
+            social media.
+          </p>
+        </div>
+    </div>
+    <div class="Project" id="Project">
+      <h1>My Projects</h1>
+      <section class="projects">
+      <div class="project">
+        <img src="img/work_13198654.png" alt="PORTFOLIO">
+        <h2>Portfolio</h2>
+        <p>
+          this is my own podrtfolio project for showing knowledge ,i can do much better than this 
+          this web also include the email served to reciving emails for ciient  . 
+        </p>
+        <button class="btn">
+          <a href="">view</a>
+        </button>
+      </div>
+      <div class="project">
+        <img src="img/check_5258416.png" alt="TODO-WEBAPP">
+        <h2>Todo Webapp</h2>
+        <p>
+          This is my TODO list application , built with React and Node.js.
+          which can do easy to mamge you daily work and meetings also have remainder which get notify for you incomletet task.
+        </p>
+        <button class="btn">
+          <a href="">view</a>
+        </button>
+      </div>
+      <div class="project">
+        <img src="img/ecommerce_5910027.png" alt="ECOMMERCE website">
+        <h2>Ecommerce</h2>
+        <p>
+        This e-commerce web-site id builded by me,which have b2b wmarketing to order we use bot and for payment we use stripe/razorpay.
+        this is for my client who want to do b2b marketing
+        </p>
+        <button class="btn">
+          <a href="">view</a>
+        </button>
+
+      </div>
+       </div>
+       <div class="contact" id="contact">
+        <h1>Get in Touch</h1>
+        <p>
+          If you would like to get in touch with me, please feel free to
+          contact me via email or connect with me on LinkedIn.
+        </p>
+        <!-- From Uiverse.io by gharsh11032000 --> 
+<div class="form-container">
+  <form class="form" onsubmit="sendmail(event)">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required="">
+    </div>
+    <div class="form-group">
+      <label for="email">Company Email</label>
+      <input type="text" id="email" name="email" required="">
+    </div>
+    <div class="form-group">
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" required="">
+    </div>
+    <div class="form-group">
+      <label for="textarea">How Can We Help You?</label>
+      <textarea name="textarea" id="textarea" rows="10" cols="50" required="">          </textarea>
+    </div>
+    <button class="form-submit-btn" type="submit">Submit</button>
+  </form>
+</div>
+        <div class="socialmedia">
+          <p>
+            You can also follow me on social media:
+          </p>
+          <div class="box">
+          <ol>
+            <li> 
+             <a href="https://www.instagram.com/simple_boy_2423/"_blank"> <img src="/socil/instagram_2504918.png" alt="instagram"></a>
+               </li>
+            <li><a href="https://www.facebook.com"> <img src="/socil/facebook_5968764.png" alt="facebook"></a> </li>
+            <li>
+              <a href="https://www.twitter.com"> <img src="/socil/letter-x_17158141.png" alt="X"></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com"> <img src="/socil/linkedin_2504923.png" alt="Linkden"></a>
+            </li>
+            <li>
+              <a href="https://www.github.com"> <img src="/socil/github_3291695.png" alt="gtihub"></a>
+            </li>
+          </ol>
+          </div>
+        </div>
+       </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </body>
+  <footer>
+    <div class="footer">
+      <p>© 2023 Raunak Sonkar. All rights reserved.</p>
+    </div>
+  </footer>
+ 
+  <script>
+    function sendmail(event){
+      event.preventDefault();
+      let parms = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        subject: document.getElementById("subject").value,
+        textarea: document.getElementById("textarea").value,
+      };
+      emailjs.send("service_ijp24cq", "template_h4jwhl8", parms)
+        .then(function() {
+          alert("Your message has been sent successfully!");
+        }, function(error) {
+          alert("Failed to send message: " + JSON.stringify(error));
+        });
+    }
+  </script>
+</html>
