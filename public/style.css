@@ -191,11 +191,11 @@ nav ol {
     color: white;
    }
    
-   button:hover {
+   .project button:hover {
     color: rgb(63, 63, 73);
    }
    
-   button:after {
+   .project button:after {
     content: "";
     background: rgb(3, 17, 80);
     position: absolute;
@@ -208,7 +208,7 @@ nav ol {
     transition: all 0.5s;
    }
    
-   button:hover:after {
+   .project button:hover:after {
     transform: skewX(-45deg) scale(1, 1);
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
