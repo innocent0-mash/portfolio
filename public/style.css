@@ -120,10 +120,8 @@ img.img1{
   left:150px;
   width: 200px;
 }
-img.img1:hover{
-  width:250px;
+
   
-}
 img.img2{
   z-index: 2;
 }
