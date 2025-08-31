@@ -433,6 +433,10 @@ div{
   transform-origin: center;
 }
 @media screen and (max-width: 1200px) {
+  img.img1{
+      left:0px;
+      bottom: 0px;
+  }
     .top{
     
       width: 100%;
