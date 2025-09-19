@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raunak Sonkar | Portfolio</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+    (function(){
+      emailjs.init({ publicKey: "cWVWrUqBemaET_lAN" });
+    })();
+  </script>
+
+  <!-- Typed.js -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="sticky top-0 bg-white shadow-md z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">Raunak Sonkar</h1>
+      <nav>
+        <ul class="hidden md:flex gap-6 text-gray-700 font-medium">
+          <li><a href="#aboutme" class="hover:text-blue-600">Home</a></li>
+          <li><a href="#Service" class="hover:text-blue-600">Service</a></li>
+          <li><a href="#Project" class="hover:text-blue-600">Projects</a></li>
+          <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="md:hidden text-gray-600">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero / About -->
+  <section id="aboutme" class="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <h2 class="text-4xl font-bold mb-4">About Me</h2>
+      <p class="text-lg text-gray-600 mb-4">
+        <span id="element" class="font-semibold text-blue-600"></span>
+      </p>
+      <p class="mb-4">I am a web developer and a computer science student passionate about building beautiful and functional websites. Proficient in HTML, CSS, JavaScript, and React.</p>
+      <p class="mb-4">Active in coding clubs, hackathons, and always eager to learn new technologies. Currently seeking internships and job opportunities in web development.</p>
+    </div>
+    <div class="flex justify-center">
+      <img src="img/dude_message.png" alt="Raunak" class="w-72 rounded-2xl shadow-lg"/>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="Service" class="bg-gray-100 py-16">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-10">My Services</h2>
+      <div class="grid md:grid-cols-4 gap-8">
+        <div class="p-6 bg-white rounded-2xl shadow hover:shadow-lg transition">
+          <img src="img/html.png" class="w-12 mb-4" alt="">
+          <h3 class="font-semibold text-xl mb-2">Web Development</h3>
+          <p class="text-gray-600">Responsive and user-friendly websites using HTML, CSS, JS & React.</p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow hover:shadow-lg transition">
+          <img src="img/uiux.png" class="w-12 mb-4" alt="">
+          <h3 class="font-semibold text-xl mb-2">UI/UX Design</h3>
+          <p class="text-gray-600">Intuitive and visually appealing interfaces for web applications.</p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow hover:shadow-lg transition">
+          <img src="img/copywriter_18274341.png" class="w-12 mb-4" alt="">
+          <h3 class="font-semibold text-xl mb-2">Content Writing</h3>
+          <p class="text-gray-600">Engaging content for websites and blogs.</p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow hover:shadow-lg transition">
+          <img src="img/graphic.png" class="w-12 mb-4" alt="">
+          <h3 class="font-semibold text-xl mb-2">Graphic Design</h3>
+          <p class="text-gray-600">Stunning graphics and social media illustrations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="Project" class="max-w-6xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-center mb-10">My Projects</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="p-6 bg-white rounded-2xl shadow hover:shadow-lg transition">
+        <img src="img/work_13198654.png" class="w-14 mb-4" alt="">
+        <h3 class="text-xl font-semibold mb-2">Portfolio</h3>
+        <p class="text-gray-600 mb-4">My own portfolio project showcasing skills with EmailJS integration.</p>
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View</a>
+      </div>
+      <div class="p-6 bg-white rounded-2xl shadow hover:shadow-lg transition">
+        <img src="img/check_5258416.png" class="w-14 mb-4" alt="">
+        <h3 class="text-xl font-semibold mb-2">Todo Webapp</h3>
+        <p class="text-gray-600 mb-4">A React & Node.js app for managing daily tasks with reminders.</p>
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View</a>
+      </div>
+      <div class="p-6 bg-white rounded-2xl shadow hover:shadow-lg transition">
+        <img src="img/ecommerce_5910027.png" class="w-14 mb-4" alt="">
+        <h3 class="text-xl font-semibold mb-2">Ecommerce</h3>
+        <p class="text-gray-600 mb-4">B2B marketplace with Stripe/Razorpay integration for payments.</p>
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-gray-100 py-16">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
+      <p class="text-gray-600 mb-8">Feel free to reach out via the form below or connect on social media.</p>
+      <form class="space-y-4 text-left" onsubmit="sendmail(event)">
+        <input id="name" type="text" placeholder="Your Name" required class="w-full p-3 border rounded-lg"/>
+        <input id="email" type="email" placeholder="Your Email" required class="w-full p-3 border rounded-lg"/>
+        <input id="subject" type="text" placeholder="Subject" required class="w-full p-3 border rounded-lg"/>
+        <textarea id="textarea" rows="5" placeholder="Message" required class="w-full p-3 border rounded-lg"></textarea>
+        <button type="submit" class="w-full py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Submit</button>
+      </form>
+      <div class="flex justify-center gap-6 mt-8">
+        <a href="https://instagram.com/simple_boy_2423" target="_blank"><img src="socil/instagram_2504918.png" class="w-6"/></a>
+        <a href="https://facebook.com"><img src="socil/facebook_5968764.png" class="w-6"/></a>
+        <a href="https://twitter.com"><img src="socil/letter-x_17158141.png" class="w-6"/></a>
+        <a href="https://linkedin.com"><img src="socil/linkedin_2504923.png" class="w-6"/></a>
+        <a href="https://github.com"><img src="socil/github_3291695.png" class="w-6"/></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white shadow-inner py-6 text-center text-gray-600">
+    <p>© 2025 Raunak Sonkar. All rights reserved.</p>
+  </footer>
+
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Hi, I am Raunak.', 'Web Developer.', 'Linux Beginner.', 'Tech Enthusiast.'],
+      typeSpeed: 70,
+      backSpeed: 40,
+      loop: true,
+    });
+
+    function sendmail(event){
+      event.preventDefault();
+      let parms = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        subject: document.getElementById("subject").value,
+        textarea: document.getElementById("textarea").value,
+      };
+      emailjs.send("service_ijp24cq", "template_h4jwhl8", parms)
+        .then(() => alert("Your message has been sent successfully!"))
+        .catch(error => alert("Failed to send: " + JSON.stringify(error)));
+    }
+  </script>
+</body>
+</html>
