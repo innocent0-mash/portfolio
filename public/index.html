@@ -1,250 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-W38PB1YQVJ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raunak Sonkar | Portfolio</title>
 
-  gtag('config', 'G-W38PB1YQVJ');
-</script>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init({
-        publicKey: "cWVWrUqBemaET_lAN",
-      });
-   })();
-</script>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <title>Raunak sonkar</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="style.css" />
-  </head>
- <body>
-    <div class="top">
-      <div class="top-left">
-        <h1>Raunak sonkar</h1>
-        <p>Web Developer</p>
-      </div>
-      <div class="top-right h-responsive">
-        <nav>
-          <ol class="nav nav-active">
-            <li><a href="#aboutme">Home</a></li>
-            <li><a href="#Service">Service</a></li>
-            <li><a href="#Project">My project</a></li>
-            <li><a href="#contact">Contact me</a></li>
-          </ol>
-        </nav>
-        <div class="burger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </div>
-      </div>
-    </div>
-    <div class="main">
-      <h1>About me</h1>
-      <section class="aboutme" id="aboutme">
-        <div class="myimage">
-         
-          <img src="img/dude_message.png" alt="message" class="img1"/>
-           <img src="img/portfolio-doodle.png" alt="web-dev" class="img2" />
-        </div>
-        <div class="about-me">
-  <span id="element"></span>
-      
-
-  <!-- Load library from the CDN -->
-  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
-  <!-- Setup and start animation! -->
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script>
-    var typed = new Typed('#element', {
-      strings: ['Hi I am Raunak.', 'Web Developer.','Linux biginner.','Raunak sonkar.'],
-      typeSpeed: 70,
-    });
+    (function(){
+      emailjs.init({ publicKey: "cWVWrUqBemaET_lAN" });
+    })();
   </script>
 
-</body>
-          <p>
-            I am a web developer and a computer science student.i have a passion for coding and
-            loves to create beautiful and functional websites.
-             I am  proficient
-            in HTML, CSS, JavaScript, and React. In his free time, I enjoys
-            reading books and playing video games.
-          </p>
-          <p>
-            I am also a member of the university's coding club and participates
-            in various hackathons. He is always eager to learn new technologies
-            and improve his skills. He believes that coding is not just a job,
-            but a way of life.
-          </p>
-          <p>
-            I am  currently looking for internships and job opportunities in web
-            development. If you are interested in hiring him, please feel free
-            to contact me.
-            
-          </p>
-        </div>
-      </section>
-    </div>
-    <div class="Service" id="Service">
-      <h1>My Services</h1>
-      <section class="services">
-        <div class="service">
-          <img src="img/html.png" alt="">
-          <h2>Web Development</h2>
-          <p>
-            I create responsive and user-friendly websites using HTML, CSS,
-            JavaScript, and React.
-          </p>
-        </div>
-        <div class="service">
-          <img src="img/uiux.png" alt="">
-          <h2>UI/UX Design</h2>
-          <p>
-            I design intuitive and visually appealing user interfaces for web
-            applications.
-          </p>
-        </div>
-        <div class="service">
-          <img src="img/copywriter_18274341.png" alt="">
-          <h2>Content Writing</h2>
-          <p>
-            I write engaging and informative content for websites and blogs.
-          </p>
-        </div>
-        <div class="service">
-          <img src="img/graphic.png" alt="">
-          <h2>Graphic designer</h2>
-          <p>
-            I create stunning graphics and illustrations for websites and
-            social media.
-          </p>
-        </div>
-    </div>
-    <div class="Project" id="Project">
-      <h1>My Projects</h1>
-      <section class="projects">
-      <div class="project">
-        <img src="img/work_13198654.png" alt="PORTFOLIO">
-        <h2>Portfolio</h2>
-        <p>
-          this is my own podrtfolio project for showing knowledge ,i can do much better than this 
-          this web also include the email served to reciving emails for ciient  . 
-        </p>
-        <button class="btn">
-          <a href="">view</a>
-        </button>
-      </div>
-        <div class="project">
-        <img src="img/pomodoro.png" alt="Pomodoro Timer">
-        <h2>Pomodoro Timer</h2>
-        <p>
-       A simple Pomodoro Timer built with HTML, CSS, and JavaScript to improve focus and productivity. This project was created as a learning exercise to understand JavaScript timers, state management, and DOM manipulation without using any frameworks.
-        </p>
-        <button class="btn">
-          <a href="https://innocent0-mash.github.io/pomodoro-timer">view</a>
-        </button>
-      </div>
-      <div class="project">
-        <img src="img/check_5258416.png" alt="TODO-WEBAPP">
-        <h2>Todo Webapp</h2>
-        <p>
-          This is my TODO list application , built with React and Node.js.
-          which can do easy to mamge you daily work and meetings also have remainder which get notify for you incomletet task.
-        </p>
-        <button class="btn">
-          <a href="">view</a>
-        </button>
-      </div>
-      <div class="project">
-        <img src="img/ecommerce_5910027.png" alt="ECOMMERCE website">
-        <h2>Ecommerce</h2>
-        <p>
-        This e-commerce web-site id builded by me,which have b2b wmarketing to order we use bot and for payment we use stripe/razorpay.
-        this is for my client who want to do b2b marketing
-        </p>
-        <button class="btn">
-          <a href="">view</a>
-        </button>
+  <!-- Typed.js -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-      </div>
-       </div>
-       <div class="contact" id="contact">
-        <h1>Get in Touch</h1>
-        <p>
-          If you would like to get in touch with me, please feel free to
-          contact me via email or connect with me on LinkedIn.
-        </p>
-<div class="form-container">
-  <form class="form" onsubmit="sendmail(event)">
-    <div class="form-group">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" required="">
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="sticky top-0 bg-white shadow-md z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">Raunak Sonkar</h1>
+      <nav>
+        <ul class="hidden md:flex gap-6 text-gray-700 font-medium">
+          <li><a href="#aboutme" class="hover:text-blue-600">Home</a></li>
+          <li><a href="#Service" class="hover:text-blue-600">Service</a></li>
+          <li><a href="#Project" class="hover:text-blue-600">Projects</a></li>
+          <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="md:hidden text-gray-600">☰</button>
     </div>
-    <div class="form-group">
-      <label for="email">Company Email</label>
-      <input type="text" id="email" name="email" required="">
+  </header>
+
+  <!-- Hero / About -->
+  <section id="aboutme" class="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <h2 class="text-4xl font-bold mb-4">About Me</h2>
+      <p class="text-lg text-gray-600 mb-4">
+        <span id="element" class="font-semibold text-blue-600"></span>
+      </p>
+      <p class="mb-4">I am a web developer and a computer science student passionate about building beautiful and functional websites. Proficient in HTML, CSS, JavaScript, and React.</p>
+      <p class="mb-4">Active in coding clubs, hackathons, and always eager to learn new technologies. Currently seeking internships and job opportunities in web development.</p>
     </div>
-    <div class="form-group">
-      <label for="subject">Subject</label>
-      <input type="text" id="subject" name="subject" required="">
+    <div class="flex justify-center">
+      <img src="img/dude_message.png" alt="Raunak" class="w-72 rounded-2xl shadow-lg"/>
     </div>
-    <div class="form-group">
-      <label for="textarea">How Can We Help You?</label>
-      <textarea name="textarea" id="textarea" rows="10" cols="50" required="">          </textarea>
-    </div>
-    <button class="form-submit-btn" type="submit">Submit</button>
-  </form>
-</div>
-        <div class="socialmedia">
-          <p>
-            You can also follow me on social media:
-          </p>
-          <div class="box">
-          <ol>
-            <li> 
-             <a href="https://www.instagram.com/simple_boy_2423/"_blank"> <img src="socil/instagram_2504918.png" alt="instagram"></a>
-               </li>
-            <li><a href="https://www.facebook.com"> <img src="socil/facebook_5968764.png" alt="facebook"></a> </li>
-            <li>
-              <a href="https://www.twitter.com"> <img src="socil/letter-x_17158141.png" alt="X"></a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com"> <img src="socil/linkedin_2504923.png" alt="Linkden"></a>
-            </li>
-            <li>
-              <a href="https://www.github.com"> <img src="socil/github_3291695.png" alt="gtihub"></a>
-            </li>
-          </ol>
-          </div>
+  </section>
+
+  <!-- Services -->
+  <section id="Service" class="bg-gray-100 py-16">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-10">My Services</h2>
+      <div class="grid md:grid-cols-4 gap-8">
+        <div class="p-6 bg-white rounded-2xl shadow hover:shadow-lg transition">
+          <img src="img/html.png" class="w-12 mb-4" alt="">
+          <h3 class="font-semibold text-xl mb-2">Web Development</h3>
+          <p class="text-gray-600">Responsive and user-friendly websites using HTML, CSS, JS & React.</p>
         </div>
-       </div>
-  <footer>
-    <div class="footer">
-      <p>© 2023 I ❤️ Raunak Sonkar. All rights reserved.</p>
+        <div class="p-6 bg-white rounded-2xl shadow hover:shadow-lg transition">
+          <img src="img/uiux.png" class="w-12 mb-4" alt="">
+          <h3 class="font-semibold text-xl mb-2">UI/UX Design</h3>
+          <p class="text-gray-600">Intuitive and visually appealing interfaces for web applications.</p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow hover:shadow-lg transition">
+          <img src="img/copywriter_18274341.png" class="w-12 mb-4" alt="">
+          <h3 class="font-semibold text-xl mb-2">Content Writing</h3>
+          <p class="text-gray-600">Engaging content for websites and blogs.</p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow hover:shadow-lg transition">
+          <img src="img/graphic.png" class="w-12 mb-4" alt="">
+          <h3 class="font-semibold text-xl mb-2">Graphic Design</h3>
+          <p class="text-gray-600">Stunning graphics and social media illustrations.</p>
+        </div>
+      </div>
     </div>
+  </section>
+
+  <!-- Projects --> 
+    <section id="Project" class="max-w-6xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-center mb-10">My Projects</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="p-6 bg-white rounded-2xl shadow hover:shadow-lg transition">
+        <img src="img/work_13198654.png" class="w-14 mb-4" alt="">
+        <h3 class="text-xl font-semibold mb-2">Portfolio</h3>
+        <p class="text-gray-600 mb-4">My own portfolio project showcasing skills with EmailJS integration.</p>
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View</a>
+      </div>
+      <div class="p-6 bg-white rounded-2xl shadow hover:shadow-lg transition">
+        <img src="img/pomodoro.png"class="w-14 mb-4" alt="">
+        <h3 class="text-xl font-semibold mb-2">pomodoro timer</h3>
+        <p class="text-gray-600 mb-4"> A simple Pomodoro Timer built with HTML, CSS, and JavaScript to improve focus and productivity.</p>
+        <a href="https://innocent0-mash.github.io/pomodoro-timer" class="text-blue-600 font-semibold hover:underline">View</a>
+      </div>
+      <div class="p-6 bg-white rounded-2xl shadow hover:shadow-lg transition">
+        <img src="img/check_5258416.png" class="w-14 mb-4" alt="">
+        <h3 class="text-xl font-semibold mb-2">Todo Webapp</h3>
+        <p class="text-gray-600 mb-4">A React & Node.js app for managing daily tasks with reminders.</p>
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View</a>
+      </div>
+      <div class="p-6 bg-white rounded-2xl shadow hover:shadow-lg transition">
+        <img src="img/ecommerce_5910027.png" class="w-14 mb-4" alt="">
+        <h3 class="text-xl font-semibold mb-2">Ecommerce</h3>
+        <p class="text-gray-600 mb-4">B2B marketplace with Stripe/Razorpay integration for payments.</p>
+        <a href="#" class="text-blue-600 font-semibold hover:underline">View</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-gray-100 py-16">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
+      <p class="text-gray-600 mb-8">Feel free to reach out via the form below or connect on social media.</p>
+      <form class="space-y-4 text-left" onsubmit="sendmail(event)">
+        <input id="name" type="text" placeholder="Your Name" required class="w-full p-3 border rounded-lg"/>
+        <input id="email" type="email" placeholder="Your Email" required class="w-full p-3 border rounded-lg"/>
+        <input id="subject" type="text" placeholder="Subject" required class="w-full p-3 border rounded-lg"/>
+        <textarea id="textarea" rows="5" placeholder="Message" required class="w-full p-3 border rounded-lg"></textarea>
+        <button type="submit" class="w-full py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Submit</button>
+      </form>
+      <div class="flex justify-center gap-6 mt-8">
+        <a href="https://instagram.com/simple_boy_2423" target="_blank"><img src="socil/instagram_2504918.png" class="w-6"/></a>
+        <a href="https://facebook.com"><img src="socil/facebook_5968764.png" class="w-6"/></a>
+        <a href="https://twitter.com"><img src="socil/letter-x_17158141.png" class="w-6"/></a>
+        <a href="https://linkedin.com"><img src="socil/linkedin_2504923.png" class="w-6"/></a>
+        <a href="https://github.com"><img src="socil/github_3291695.png" class="w-6"/></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white shadow-inner py-6 text-center text-gray-600">
+    <p>© 2025 Raunak Sonkar. All rights reserved.</p>
   </footer>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-  </body>
- 
-  <script src="responsive.js"></script>
+
   <script>
+    var typed = new Typed('#element', {
+      strings: ['Hi, I am Raunak.', 'Web Developer.', 'Linux Beginner.', 'Tech Enthusiast.'],
+      typeSpeed: 70,
+      backSpeed: 40,
+      loop: true,
+    });
+
     function sendmail(event){
       event.preventDefault();
       let parms = {
@@ -254,11 +163,9 @@
         textarea: document.getElementById("textarea").value,
       };
       emailjs.send("service_ijp24cq", "template_h4jwhl8", parms)
-        .then(function() {
-          alert("Your message has been sent successfully!");
-        }, function(error) {
-          alert("Failed to send message: " + JSON.stringify(error));
-        });
+        .then(() => alert("Your message has been sent successfully!"))
+        .catch(error => alert("Failed to send: " + JSON.stringify(error)));
     }
   </script>
+</body>
 </html>
